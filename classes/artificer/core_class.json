@@ -1,0 +1,24 @@
+{
+  system : "dnd5e",
+  hit_die : 8, 
+  proficiencies: {
+    armor : {
+      light_armor : true,
+      medium_armor: true,
+      shields : true
+    },
+    weapons : {
+      simple_weapons : true,
+    },
+    saving_throws : {
+      constitution : true,
+      intelligence : true
+    }
+    
+  
+  },
+  level_1 : {
+    magical_tinkering = "location
+  }, 
+  level_2  : {}
+}
