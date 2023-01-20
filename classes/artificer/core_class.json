@@ -1,24 +1,54 @@
 {
-  system : "dnd5e",
-  hit_die : 8, 
-  proficiencies: {
-    armor : {
-      light_armor : true,
-      medium_armor: true,
-      shields : true
+    "system" : "dnd5e",
+    "class_name" : "Artificer",
+    "hit_die" : 0,
+    "proficencies" : {
+        "armor" : {
+            "light_armor" : true,
+            "medium_armor" : true,
+            "heavy_armor" : false,
+            "shields" : true
+        },
+        "weapons" : {
+            "simple" : true,
+            "martial" : false
+        },
+        "tools" : {}, 
+        "saving_thows" : {},
+        "skills" : {
+           "n_skill_choices" :  2,
+           "options": [ 
+                "Arcana", 
+                "History", 
+                "Investigation",
+                "Medicine", 
+                "Nature", 
+                "Perception", 
+                "Sleight of Hand"
+            ]
+        }
+
     },
-    weapons : {
-      simple_weapons : true,
-    },
-    saving_throws : {
-      constitution : true,
-      intelligence : true
-    }
-    
-  
-  },
-  level_1 : {
-    magical_tinkering = "location
-  }, 
-  level_2  : {}
+    "starting_equipment" : {},
+    "level_01" : {}, 
+    "level_02" : {}, 
+    "level_03" : {}, 
+    "level_04" : {}, 
+    "level_05" : {}, 
+    "level_06" : {}, 
+    "level_07" : {}, 
+    "level_08" : {}, 
+    "level_09" : {}, 
+    "level_10" : {}, 
+    "level_11" : {}, 
+    "level_12" : {}, 
+    "level_13" : {}, 
+    "level_14" : {}, 
+    "level_15" : {}, 
+    "level_16" : {}, 
+    "level_17" : {}, 
+    "level_18" : {}, 
+    "level_19" : {}, 
+    "level_20" : {}
+
 }
